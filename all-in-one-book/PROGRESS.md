@@ -5,7 +5,7 @@
 | # | 章节标题 | 文件名 | 核心覆盖 | 状态 |
 |---|---------|--------|---------|------|
 | 0 | [序章：全景鸟瞰](ch00-panorama.md) | ch00-panorama.md | 项目定位 / 架构全景图 / 核心概念词典 / 代码库地图 / 一次典型交互极简全流程 | ✅ |
-| 1 | [数据流全景：一次完整的编程对话](ch01-data-flow.md) | ch01-data-flow.md | 从用户输入到 LLM 响应到工具执行，完整数据流每步拆解 | ⏳ |
+| 1 | [数据流全景：一次完整的编程对话](ch01-data-flow.md) | ch01-data-flow.md | 从用户输入到 LLM 响应到工具执行，完整数据流每步拆解 | ✅ |
 | 2 | [pi-ai：统一的 LLM 抽象层](ch02-pi-ai.md) | ch02-pi-ai.md | Provider 适配器 / 消息类型 / 流式事件 / 工具调用协议 / 模型注册 | ⏳ |
 | 3 | [pi-agent-core：Agent 运行时引擎](ch03-agent-core.md) | ch03-agent-core.md | Agent 类 / 事件循环 / 工具执行 / 转向与追问队列 / 状态管理 | ⏳ |
 | 4 | [coding-agent：从命令行到 Agent 会话](ch04-coding-agent.md) | ch04-coding-agent.md | CLI 入口 / main() 流程 / AgentSession 编排 / 运行模式分发 | ⏳ |
