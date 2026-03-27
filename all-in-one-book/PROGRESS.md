@@ -10,11 +10,11 @@
 | 3 | pi-agent-core — Agent 运行时 | ch03-agent-core.md | Agent 类 vs agent-loop / 工具执行生命周期 / 事件流 / 状态管理 / Steering 与 Follow-up / Proxy 模式 | ✅ |
 | 4 | pi-coding-agent 核心 — 从 CLI 到 AgentSession | ch04-coding-agent-core.md | CLI 架构 / AgentSession 抽象 / 会话管理(JSONL 树结构) / 模型解析 / 设置系统 / Compaction | ✅ |
 | 5 | 工具系统与扩展机制 | ch05-tools-and-extensions.md | 7 个内置工具实现 / 扩展加载器(Jiti) / 事件钩子 / 自定义工具注册 / Skills 系统 | ✅ |
-| 6 | pi-tui — 终端 UI 框架 | ch06-tui.md | 差分渲染 / Component 模型 / 键盘输入 / 内置组件(Editor, Markdown, SelectList) / 图像协议 | ⏳ |
-| 7 | 交互模式 — TUI + Agent 的协奏 | ch07-interactive-mode.md | Interactive Mode 架构 / 事件到 UI 的映射 / 主题系统 / 斜杠命令 / 快捷键 | ⏳ |
-| 8 | RPC 协议与 Web UI | ch08-rpc-and-web-ui.md | RPC JSON-line 协议 / Web Components / IndexedDB 存储 / 沙箱 Iframe / Artifacts | ⏳ |
-| 9 | Mom 与 Pods — Slack 机器人与 GPU 管理 | ch09-mom-and-pods.md | Mom: Slack 适配→Agent 委托→沙箱执行 / Pods: SSH 部署→vLLM 编排→端口管理 | ⏳ |
-| 10 | 端到端追踪 — 一次真实编码任务的完整旅程 | ch10-e2e-trace.md | 从 `pi "修复这个 bug"` 到代码修改完成，串联全书所有模块，验证理解 | ⏳ |
+| 6 | pi-tui — 终端 UI 框架 | ch06-tui.md | 差分渲染 / Component 模型 / 键盘输入 / 内置组件(Editor, Markdown, SelectList) / 图像协议 | ✅ |
+| 7 | 交互模式 — TUI + Agent 的协奏 | ch07-interactive-mode.md | Interactive Mode 架构 / 事件到 UI 的映射 / 主题系统 / 斜杠命令 / 快捷键 | ✅ |
+| 8 | RPC 协议与 Web UI | ch08-rpc-and-web-ui.md | RPC JSON-line 协议 / Web Components / IndexedDB 存储 / 沙箱 Iframe / Artifacts | ✅ |
+| 9 | Mom 与 Pods — Slack 机器人与 GPU 管理 | ch09-mom-and-pods.md | Mom: Slack 适配→Agent 委托→沙箱执行 / Pods: SSH 部署→vLLM 编排→端口管理 | ✅ |
+| 10 | 端到端追踪 — 一次真实编码任务的完整旅程 | ch10-e2e-trace.md | 从 `pi "修复这个 bug"` 到代码修改完成，串联全书所有模块，验证理解 | ✅ |
 
 ## 章节规划说明
 
@@ -72,7 +72,7 @@ ch10 端到端追踪（综合验收：串联全书，闭合认知环路）
 ## 下次续写指引
 
 ### 从哪里继续
-从 ch00（序言）开始写作。所有探索工作已完成，对七个包的架构、数据流、核心类型有了完整理解。
+全部 11 章（ch00-ch10）已完成写作并提交。全书完成。
 
 ### 交接备忘
 - 项目版本：v0.63.1
