@@ -9,7 +9,7 @@
 | 2 | pi-ai — 统一的 LLM 通信层 | ch02-pi-ai.md | Provider 适配器模式 / 流式事件协议 / 消息转换 / 模型注册 / 跨 Provider 兼容 / 成本计算 | ✅ |
 | 3 | pi-agent-core — Agent 运行时 | ch03-agent-core.md | Agent 类 vs agent-loop / 工具执行生命周期 / 事件流 / 状态管理 / Steering 与 Follow-up / Proxy 模式 | ✅ |
 | 4 | pi-coding-agent 核心 — 从 CLI 到 AgentSession | ch04-coding-agent-core.md | CLI 架构 / AgentSession 抽象 / 会话管理(JSONL 树结构) / 模型解析 / 设置系统 / Compaction | ✅ |
-| 5 | 工具系统与扩展机制 | ch05-tools-and-extensions.md | 7 个内置工具实现 / 扩展加载器(Jiti) / 事件钩子 / 自定义工具注册 / Skills 系统 | ⏳ |
+| 5 | 工具系统与扩展机制 | ch05-tools-and-extensions.md | 7 个内置工具实现 / 扩展加载器(Jiti) / 事件钩子 / 自定义工具注册 / Skills 系统 | ✅ |
 | 6 | pi-tui — 终端 UI 框架 | ch06-tui.md | 差分渲染 / Component 模型 / 键盘输入 / 内置组件(Editor, Markdown, SelectList) / 图像协议 | ⏳ |
 | 7 | 交互模式 — TUI + Agent 的协奏 | ch07-interactive-mode.md | Interactive Mode 架构 / 事件到 UI 的映射 / 主题系统 / 斜杠命令 / 快捷键 | ⏳ |
 | 8 | RPC 协议与 Web UI | ch08-rpc-and-web-ui.md | RPC JSON-line 协议 / Web Components / IndexedDB 存储 / 沙箱 Iframe / Artifacts | ⏳ |
