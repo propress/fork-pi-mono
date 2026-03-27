@@ -7,7 +7,7 @@
 | 0 | 序言 — 全书地图 | ch00-preface.md | 项目定位 / 架构全景图 / 核心概念词典 / 代码库地图 / 一次典型交互极简全流程 | ✅ |
 | 1 | 数据流全景 — 一次完整交互的生命周期 | ch01-data-flow.md | 用户输入→CLI 解析→Agent 循环→LLM 流式响应→工具调用→结果回传→渲染输出，每步数据形态变化 | ✅ |
 | 2 | pi-ai — 统一的 LLM 通信层 | ch02-pi-ai.md | Provider 适配器模式 / 流式事件协议 / 消息转换 / 模型注册 / 跨 Provider 兼容 / 成本计算 | ✅ |
-| 3 | pi-agent-core — Agent 运行时 | ch03-agent-core.md | Agent 类 vs agent-loop / 工具执行生命周期 / 事件流 / 状态管理 / Steering 与 Follow-up / Proxy 模式 | ⏳ |
+| 3 | pi-agent-core — Agent 运行时 | ch03-agent-core.md | Agent 类 vs agent-loop / 工具执行生命周期 / 事件流 / 状态管理 / Steering 与 Follow-up / Proxy 模式 | ✅ |
 | 4 | pi-coding-agent 核心 — 从 CLI 到 AgentSession | ch04-coding-agent-core.md | CLI 架构 / AgentSession 抽象 / 会话管理(JSONL 树结构) / 模型解析 / 设置系统 / Compaction | ⏳ |
 | 5 | 工具系统与扩展机制 | ch05-tools-and-extensions.md | 7 个内置工具实现 / 扩展加载器(Jiti) / 事件钩子 / 自定义工具注册 / Skills 系统 | ⏳ |
 | 6 | pi-tui — 终端 UI 框架 | ch06-tui.md | 差分渲染 / Component 模型 / 键盘输入 / 内置组件(Editor, Markdown, SelectList) / 图像协议 | ⏳ |
