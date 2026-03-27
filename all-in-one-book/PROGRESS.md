@@ -15,7 +15,7 @@
 | 8 | [pi-tui：终端 UI 渲染引擎](ch08-tui-engine.md) | ch08-tui-engine.md | 差分渲染 / 组件系统 / Overlay / 键盘协议 / 文本宽度计算 | ✅ |
 | 9 | [交互模式：30+ 组件构建的终端 IDE](ch09-interactive-mode.md) | ch09-interactive-mode.md | InteractiveMode 编排 / 编辑器 / 消息渲染 / 主题 / 斜杠命令 | ✅ |
 | 10 | [应用层：web-ui、mom、pods](ch10-applications.md) | ch10-applications.md | 浏览器聊天组件 / Slack 机器人 / GPU Pod vLLM 部署管理 | ✅ |
-| 11 | [端到端追踪：三个关键场景](ch11-end-to-end.md) | ch11-end-to-end.md | 场景1: 编辑文件 / 场景2: 扩展拦截 / 场景3: 上下文溢出压缩 | ⏳ |
+| 11 | [端到端追踪：三个关键场景](ch11-end-to-end.md) | ch11-end-to-end.md | 场景1: 编辑文件 / 场景2: 扩展拦截 / 场景3: 上下文溢出压缩 | ✅ |
 
 ## 章节规划说明
 
@@ -81,16 +81,24 @@
 
 ## 下次续写指引
 ### 从哪里继续
-从第 0 章（ch00-panorama.md）开始写作。
+全部 12 章（ch00-ch11）已完成首版写作。
 
 ### 交接备忘
-- 已完成全部 7 个包的深度源码阅读
-- 架构已充分理解，可以直接开始写作
-- 注意：pi-ai 是最底层，pi-agent-core 依赖 pi-ai，coding-agent 依赖前两者
-- TUI 包是独立的渲染引擎，被 coding-agent 的交互模式使用
-- web-ui、mom、pods 是三个独立应用，复用核心层
+- 全部 12 章均已完成并通过质检
+- 每章都有质检报告
+- 章节之间有内链互相引用
+- PROGRESS.md 中有完整的链接索引
+- 术语约定已记录
 
 ### 待验证项
-- [ ] pi-ai 中 `transform-messages.ts` 的跨 Provider 消息转换具体规则
-- [ ] coding-agent 中 `model-resolver.ts` 的模型解析优先级
-- [ ] pi-tui 差分渲染中 `compositeLineAt()` 的具体合成逻辑
+- [ ] pi-ai 中 `transform-messages.ts` 的跨 Provider 消息转换具体规则（已在第 2 章概述，可深入）
+- [ ] coding-agent 中 `model-resolver.ts` 的模型解析优先级（已在第 4 章概述）
+- [ ] pi-tui 差分渲染中 `compositeLineAt()` 的具体合成逻辑（已在第 8 章概述）
+- [ ] web-ui 的 Artifacts 沙箱安全机制细节
+- [ ] mom 的 Docker 容器生命周期管理细节
+
+### 可改进方向
+- 可为每章添加更多 Mermaid 图
+- 可为 ch02（pi-ai）补充更多 Provider 的适配细节对比
+- 可为 ch05（工具系统）补充 find/grep 的更多实现细节
+- 可为 ch08（pi-tui）补充 Editor 组件的编辑操作实现
