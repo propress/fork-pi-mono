@@ -10,7 +10,7 @@
 | 3 | [pi-agent-core：Agent 运行时引擎](ch03-agent-core.md) | ch03-agent-core.md | Agent 类 / 事件循环 / 工具执行 / 转向与追问队列 / 状态管理 | ✅ |
 | 4 | [coding-agent：从命令行到 Agent 会话](ch04-coding-agent.md) | ch04-coding-agent.md | CLI 入口 / main() 流程 / AgentSession 编排 / 运行模式分发 | ✅ |
 | 5 | [工具系统深入：read/write/edit/bash](ch05-tools.md) | ch05-tools.md | 6 个内置工具的实现 / 模糊匹配编辑 / Bash 执行安全 / 文件变更队列 | ✅ |
-| 6 | [扩展系统：不 Fork 就能扩展一切](ch06-extensions.md) | ch06-extensions.md | 扩展发现与加载 / 事件钩子 / 自定义工具与命令 / 扩展 API | ⏳ |
+| 6 | [扩展系统：不 Fork 就能扩展一切](ch06-extensions.md) | ch06-extensions.md | 扩展发现与加载 / 事件钩子 / 自定义工具与命令 / 扩展 API | ✅ |
 | 7 | [会话管理与上下文压缩](ch07-sessions.md) | ch07-sessions.md | JSONL 持久化 / 分支与切换 / Compaction 原理 / 上下文重建 | ⏳ |
 | 8 | [pi-tui：终端 UI 渲染引擎](ch08-tui-engine.md) | ch08-tui-engine.md | 差分渲染 / 组件系统 / Overlay / 键盘协议 / 文本宽度计算 | ⏳ |
 | 9 | [交互模式：30+ 组件构建的终端 IDE](ch09-interactive-mode.md) | ch09-interactive-mode.md | InteractiveMode 编排 / 编辑器 / 消息渲染 / 主题 / 斜杠命令 | ⏳ |
